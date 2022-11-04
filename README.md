@@ -6,22 +6,24 @@
 部署
 --- 
 
-**Linux** : 
+**~~Linux~~** : 
 ``` 
 git clone https://github.com/caolvchong-top/twitter_video_download.git 
 cd twitter_video_download 
 pip3 install -r requirements.txt 
 ``` 
-**运行** : 
+**~~运行~~** : 
 ``` 
 vi cookies.txt 
 #在文件里填入cookie并保存 
 python3 twitter_video.py 
+#linux不知道为啥跑不起来，貌似是包版本的问题 
+#用windows吧，或者有没有大佬可以调调看 
 ``` 
 
 **Windows** : 
 
-用requirements配好环境，将cookie放入cookies.txt中，运行twitter_video.py即可... 
+pip **[requests]** 和 **[fake_useragent]** 两个包，将cookie放入cookies.txt中，运行twitter_video.py即可... 
 
 注意事项 
 --- 
